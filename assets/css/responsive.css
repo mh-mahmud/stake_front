@@ -1,0 +1,1420 @@
+/* HD Layout: 1920px. */
+
+@media only screen and (min-width: 1601px) and (max-width: 2200px) {
+    .registration-area-step-1 {
+        width: 42%;
+    }
+    .betslip-item-list {
+        max-height: 500px;
+    }
+    .logo-list ul li img {
+        max-height: 23px;
+    }
+    .logo-list ul li {
+        margin: 0 30px;
+    }
+}
+
+
+/* Laptop with HDPI: 1440px */
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {}
+
+
+/* Nrmal PC: 1366px */
+
+@media only screen and (min-width: 1301px) and (max-width: 1399px) {
+    .logo-list ul li {
+        margin: 0 14px;
+    }
+    .registration-fullpage-tab-box {
+        width: 100%;
+    }
+}
+
+
+/* Laptop with MDPI: 1280px */
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) {
+    .logo-list ul li {
+        margin: 0 12px;
+    }
+    .logo-list ul li img {
+        max-height: 19px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+	.sign-in-off-canvas-area{
+		display: none;
+	}
+}
+
+/* Medium Layout(iPad Pro): 1024px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    section.company-logo .col-lg-8 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .copyright-area .col-lg-5 {
+        -ms-flex: 0 0 44.666667%;
+        flex: 0 0 44.666667%;
+        max-width: 44.666667%;
+    }
+    .copyright-area .offset-lg-1 {
+        margin-left: 5.333333%;
+    }
+    .live-support-form-input-wrapper {
+        height: 430px;
+    }
+    .header-time.position-absolute {
+        left: -25px;
+    }
+    .sign-up-area {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+    }
+    .sign-up-area a,
+    .sign-up-area span {
+        padding: 2px 10px;
+    }
+    .cricket-match-summary-details span.team-name-flag .flag img {
+        height: 30px;
+        max-width: 50px !important;
+    }
+    .cricket-match-summary-details .match-details-info .team-score {
+        height: 30px;
+    }
+    .cricket-match-summary-details span.series-flag {
+        align-items: center;
+        height: 30px;
+        padding: 0;
+    }
+    .cricket-match-summary-header {
+        font-size: 10px;
+    }
+    .football-match-summary span.team-name-flag .flag img {
+        max-height: 50px;
+    }
+    .football-match-summary .match-details-info .team-score {
+        padding: 0 15px;
+        height: 50px;
+    }
+    .single-event-time {
+        font-size: 12px;
+    }
+    .admin-profile-info-show-more-body .top-part {
+        height: 90px;
+    }
+    .game-other-info-box-area .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .game-other-info-box-area .col-lg-2,
+    .game-other-info-box-area .col-lg-4,
+    .game-other-info-registration-area .form-inputs-wrapper .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .game-other-info-box-area .col-lg-3 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .game-other-info-box-area .col-lg-9 {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .game-other-info-registration-area, .football-match-carousel-area {
+        margin-bottom: 5px;
+    }
+    .game-other-info-box-area .col-lg-3 .football-match-carousel-area {
+        margin-bottom: 0;
+    }
+    section.admin-template-area .left-sidebar.col-lg-2 {
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    section.admin-template-area .col-lg-10.admin-content {
+        -ms-flex: 0 0 calc(80% - 10px);
+        flex: 0 0 calc(80% - 10px);
+        max-width: calc(80% - 10px);
+    }
+    section.admin-template-area .left-sidebar.col-lg-2.collaps-active {
+        -ms-flex: 0 0 60px;
+        flex: 0 0 60px;
+        max-width: 60px;
+    }
+    section.admin-template-area .col-lg-10.admin-content.collaps-active {
+        -ms-flex: 0 0 calc(100% - 70px);
+        flex: 0 0 calc(100% - 70px);
+        max-width: calc(100% - 70px);
+    }
+    .game-options-area {
+        height: auto;
+        flex-direction: column;
+    }
+    .game-options-left-side, .game-options-right-side {
+        width: 100%;
+    }
+    .game-options-left-side {
+        border-bottom: 5px solid #081f31;
+    }
+    .game-option-list {
+        margin-right: 0;
+    }
+    .game-search-area {
+        margin-left: 0;
+    }
+    .game-other-info-box-area.logged-in .col-sm-12 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .single-banner-slider {
+        height: 263px;
+        padding: 20px 30px;
+    }
+    .logged-in .banner-slider-carousel .owl-dots {
+        position: absolute;
+        left: auto;
+        bottom: 30px;
+        right: 30px;
+    }
+    .cricket-carousel-logged-in .cricket-match-carousel-area, .football-carousel-logged-in .football-match-carousel-area {
+        height: 265px;
+    }
+    .registration-fullpage-tab-box {
+        width: 75%;
+    }
+    .single-match-result-box .match-point, .single-match-result-box .match-name {
+        width: 50%;
+    }
+    .sign-in-fullpage-area .registration-fullpage-tab-box {
+        width: 30%;
+    }
+    .initial-popup-modal {
+        width: 45%;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    html:not(.admin-html),
+    body:not(.admin-body) {
+        height: auto;
+    }
+	#preloader{
+		left: 25%;
+		top: 25%;
+	}
+    .left-sidebar-toggle-btn-area {
+        display: none;
+    }
+    .left-sidebar {
+        padding-right: 5px;
+    }
+    .left-sidebar-tab-search-wrapper {
+        margin-top: 2px;
+    }
+    .right-sidebar {
+        padding-left: 5px;
+        margin-top: 0;
+    }
+    .cricket-match-summary-details .match-details-info,
+    .football-match-summary .match-details-info {
+        justify-content: space-around;
+    }
+    .cricket-match-summary-details .match-details-info .team-score {
+        margin-left: 15px;
+    }
+    .cricket-match-summary-details .match-details-info .right-side .team-score {
+        margin-right: 15px;
+    }
+    .logo-list ul li {
+        margin: 15px 20px;
+    }
+    section.footer-area .col-lg-6 {
+        margin: 10px 0;
+    }
+	section.footer-area-bottom .col-lg-6 {
+        margin: 10px 0;
+    }
+    .mobile-apps ul li {
+        margin-bottom: 0;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .footer-area .col-lg-5.col-md-7.text-center {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+	.footer-area-bottom .col-lg-5.col-md-7.text-center {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .follow-us {
+        margin-bottom: 0;
+    }
+    .copyright-text {
+        margin-left: 0;
+        text-align: justify;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .live-support-form-input-wrapper {
+        height: 435px;
+    }
+    .header-area .col-lg-7.col-md-4.text-center.position-relative {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .header-time.position-absolute {
+        position: relative !important;
+        top: 50%;
+        transform: translateY(0);
+    }
+    /* #main-menu {
+        display: none;
+      } */
+    .slicknav_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .registration-area-step-1 {
+        width: 75%;
+    }
+    section.admin-template-area .left-sidebar:not(.collaps-active) {
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    section.admin-template-area .admin-content:not(.collaps-active) {
+        max-width: calc(75% - 10px);
+        flex: 0 0 calc(75% - 10px);
+    }
+    .admin-profile-info-show-more-body .top-part {
+        height: 90px;
+    }
+    .game-content-area,
+    .admin-template-area {
+        margin-top: 66px;
+    }
+    .tab-d-none {
+        display: none;
+    }
+    #responsive-main-menu-2.d-none,
+    .responsive-main-menu-2-list.d-none {
+        display: flex !important;
+    }
+    .header-right-area ul li .slicknav_nav {
+        flex-direction: column;
+    }
+    .header-right-area ul li .slicknav_nav li {
+        width: 100%;
+    }
+    .header-right-area ul li {
+        display: block;
+    }
+    .header-right-area ul li .slicknav_nav ul {
+        flex-direction: column;
+    }
+    .game-area {
+        margin: 5px 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .ng-scroll-view-container[_ngcontent-c11] {
+        margin: 0 !important;
+    }
+    [autoHide=true][_nghost-c11]:active>.ng-scrollbar-layout[_ngcontent-c11]>.ng-scrollbar-layout[_ngcontent-c11]>ng-scrollbar-y[_ngcontent-c11],
+    [autoHide=true][_nghost-c11]:active>.ng-scrollbar-layout[_ngcontent-c11]>ng-scrollbar-x[_ngcontent-c11],
+    [autoHide=true][_nghost-c11]:focus>.ng-scrollbar-layout[_ngcontent-c11]>.ng-scrollbar-layout[_ngcontent-c11]>ng-scrollbar-y[_ngcontent-c11],
+    [autoHide=true][_nghost-c11]:focus>.ng-scrollbar-layout[_ngcontent-c11]>ng-scrollbar-x[_ngcontent-c11],
+    [autoHide=true][_nghost-c11]:hover>.ng-scrollbar-layout[_ngcontent-c11]>.ng-scrollbar-layout[_ngcontent-c11]>ng-scrollbar-y[_ngcontent-c11],
+    [autoHide=true][_nghost-c11]:hover>.ng-scrollbar-layout[_ngcontent-c11]>ng-scrollbar-x[_ngcontent-c11] {
+        opacity: 0 !important;
+    }
+    /* NEW LAYOUT RESPONSIVE CSS */
+    .container-fluid.header-top-area .col {
+        padding: 0;
+    }
+    .container-fluid.header-top-area .row {
+        margin: 0;
+    }
+    .container-fluid.header-top-area .row .col-lg-6 {
+        width: auto;
+    }
+    /* .footer-top-right ul li:first-child a {
+        border-left: none;
+    } */
+    .main-menu ul li a {
+        padding: 15px 7px;
+        font-size: 14px;
+    }
+
+    .game-other-info-box-area .col-lg-2 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .game-other-info-box-area .col-lg-4 {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .game-other-info-box-area .col-lg-3 {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+    .game-other-info-box-area .col-lg-9 {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .game-other-info-registration-area, .football-match-carousel-area {
+        margin-bottom: 5px;
+    }
+    .game-other-info-box-area .col-lg-3 .football-match-carousel-area {
+        margin-bottom: 0;
+    }
+    .game-other-info-registration-area .form-inputs-wrapper .col-lg-6 {
+        width: 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .game-content-area {
+        margin-top: 0;
+    }
+    .left-sidebar {
+        padding-right: 0;
+    }
+    .right-sidebar {
+        padding-left: 0;
+    }
+    .registration-fullpage-tab-box {
+        width: 75%;
+    }
+    .admin-template-area {
+        margin-top: 96px;
+    }
+    .admin-profile-table .col-lg-6:nth-child(2n+1) {
+        padding-right: 0;
+    }
+    .admin-profile-table .col-lg-6:nth-child(2n) {
+        padding-left: 0;
+    }
+    .admin-profile-update-form .form-group {
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+    .admin-profile-update-form .form-group label {
+        height: auto;
+    }
+    .admin-profile-update-form .col-lg-4 .form-group {
+        margin-bottom: 10px;
+    }
+    .admin-profile-update-form .col-lg-8.offset-4 {
+        margin-left: 0;
+    }
+    input.admin-profile-update-form-submit {
+        margin-top: 10px;
+    }
+
+    .admin-profile-condition {
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+    table.dataTable tbody th, table.dataTable tbody td {
+        text-align: center;
+    }
+    .admin-content .tab-content .tab-pane .row .col-lg-6 {
+        padding: 0;
+    }
+
+    .right-sidebar.custom-scrollbar-2 {
+        position: relative;
+        top: 0;
+    }
+
+    .betslip-card-area.responsive {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: transparent;
+        transition: .5s;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+    .betslip-card-area-responsive-overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .betslip-card-area.responsive .betslip-card.right-sidebar {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transition: .5s;
+        transform: translate(-50%, -50%) scale(.7);
+        height: auto !important;
+        width: 40%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .betslip-card-area.responsive.active {
+        opacity: 1;
+        visibility: visible;
+    }
+    .active .betslip-card-area-responsive-overlay {
+        opacity: .5;
+        visibility: visible;
+    }
+    .betslip-card-area.responsive.active .betslip-card.right-sidebar {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+        visibility: visible;
+    }
+    .active .betslip-card-close {
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+
+    .m-d-none  {
+        display: none !important;
+    }
+    .sign-up-button-mobile {
+        display: flex !important;
+    }
+    /*.sign-in-off-canvas-area.active {*/
+    /*    opacity: 1;*/
+    /*    visibility: hidden;*/
+    /*}*/
+    /*.active .sign-in-off-canvas {*/
+    /*    left: 0;*/
+    /*}*/
+    /*.active .sign-in-off-canvas-area-overlay {*/
+    /*    opacity: .5;*/
+    /*    visibility: hidden;*/
+    /*}*/
+    /*.active .sign-in-off-canvas-area-close {*/
+    /*    left: 260px;*/
+    /*}*/
+    .game-other-info-box-area .col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .game-other-info-box-area .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .cricket-carousel-logged-in {
+        margin-bottom: 5px;
+    }
+    .cricket-carousel-logged-in .cricket-match-carousel-area,
+    .football-carousel-logged-in .football-match-carousel-area {
+        height: 230px;
+    }
+    .upcomming-matches-area {
+        margin-top: 0;
+    }
+    .upcomming-matches-list {
+        display: flex;
+    }
+    .single-upcomming-match-card {
+        width:calc(50% - 3px) !important;
+    }
+    .single-upcomming-match-card:nth-last-child(2) {
+        margin-bottom: 0;
+    }
+
+    .single-upcomming-match-card:nth-child(2n) {
+        margin-left: 3px;
+    }
+
+    .single-upcomming-match-card:nth-child(2n+1) {
+        margin-right: 3px;
+    }
+    .registration-fullpage-tab-box {
+        width: 100%;
+    }
+    .match-details-game-tab-area .tab-content.match-details-game-tab .row .col-lg-4 {
+        width: 33.33333% !important;
+        flex-basis: unset;
+        flex-grow: unset;
+    }
+    .sign-in-fullpage-area .registration-fullpage-tab-box {
+        width: 40%;
+    }
+    .upcomming-matches-list {
+        max-height: inherit;
+        flex-wrap: wrap;
+    }
+    .row.pre-match-bets-row .col-lg-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .left-sidebar, .right-sidebar, .game-area, .admin-content {
+        height: auto !important;
+    }
+
+    perfect-scrollbar {
+        max-height: initial !important;
+    }
+    .initial-popup-modal {
+        width: 60%;
+    }
+}
+
+
+/* Mobile Layout: 375px. */
+
+@media only screen and (max-width: 767px) {
+    html,
+    body {
+        height: auto;
+    }
+    .logo img {
+        max-height: 35px;
+    }
+    .left-sidebar-toggle-btn-area {
+        display: none;
+    }
+    .left-sidebar {
+        padding-right: 5px;
+    }
+    .favourite-card {
+        margin-bottom: 0;
+    }
+    .left-sidebar-tab-search-wrapper {
+        margin-top: 2px;
+    }
+    .right-sidebar {
+        padding-left: 5px;
+        margin-top: 0;
+    }
+    .cricket-match-summary-details .match-details-info,
+    .football-match-summary .match-details-info {
+        justify-content: space-around;
+    }
+    .cricket-match-summary-details .match-details-info .team-score {
+        margin-left: 15px;
+    }
+    .cricket-match-summary-details .match-details-info .right-side .team-score {
+        margin-right: 15px;
+    }
+    .logo-list ul li {
+        margin: 15px 20px;
+    }
+    .mobile-apps ul li {
+        margin-bottom: 0;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .footer-area .col-lg-5.col-md-7.text-center {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+	.footer-area-bottom .col-lg-5.col-md-7.text-center {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .follow-us {
+        margin-bottom: 0;
+    }
+    .copyright-text {
+        margin-left: 0;
+        text-align: justify;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .live-support-form-input-wrapper {
+        height: 315px;
+    }
+    .live-support-content-area {
+        width: 330px;
+    }
+    .betslip-card.fixed {
+        right: 0;
+        width: 100%;
+    }
+    .header-area {
+        padding: 7px 10px;
+    }
+    .header-area .col-md-2 {
+        width: 30%;
+    }
+    .header-area .col-lg-7.col-md-4.text-center.position-relative {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+    }
+    .header-right-area {
+        margin-top: 6px;
+    }
+    .header-time.position-absolute {
+        position: relative !important;
+        top: 50%;
+        transform: translateY(0);
+        margin-left: 18%;
+    }
+    #main-menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .slicknav_nav,
+    .responsive-main-menu-wrapper {
+        top: 94px !important;
+    }
+    .admin-body .slicknav_nav,
+    .admin-body .responsive-main-menu-wrapper {
+        top: 98px !important;
+    }
+    .registration-area-step-1,
+    .sign-in-area,
+    .forgot-password-area {
+        width: 95%;
+        max-height: 500px;
+        overflow: hidden;
+    }
+    .rs-body {
+        overflow: hidden;
+        max-height: 430px;
+        overflow-y: auto;
+    }
+    .sign-up-area .dropdown-menu.dropdown-menu-right {
+        transform: translate3d(0, 50px, 0px) !important;
+        position: fixed !important;
+        top: 40px !important;
+    }
+    .sign-up-area .dropdown-menu.dropdown-menu-right:not(.after-login-dropdown-menu) {
+        min-width: 100%;
+        width: 100%;
+    }
+    .single-match-result-box .match-name {
+        width: 72%;
+    }
+    .single-match-result-accordion-body .row .col {
+        width: 50%;
+        flex: 0 0 50%;
+        border-right: 1px solid #c9c9c9 !important;
+    }
+    .single-match-result-accordion-body .row .col:nth-child(2n) {
+        border-right: none !important;
+    }
+    .single-match-result-header .right-side {
+        margin-left: initial;
+        flex-direction: column;
+        margin-top: 5px;
+        width: 100%;
+        align-items: flex-end;
+    }
+    .single-match-result-header .top-side img {
+        margin-top: 2px;
+    }
+    .footer-links,
+    .mobile-apps {
+        margin-bottom: 20px;
+    }
+    .game-banner-match-summary {
+        width: 90%;
+    }
+    .single-game-banner {
+        height: 140px;
+    }
+    .single-game-banner img.single-game-banner-image {
+        height: 100%;
+        width: auto !important;
+    }
+    .admin-content {
+        margin-left: 0;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .admin-left-sidebar-toggle-btn-wrapper .icon {
+        display: none;
+    }
+    .admin-profile-info-area {
+        padding-top: 10px;
+    }
+    .admin-profile-info-area-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .admin-profile-text {
+        text-align: left;
+        white-space: nowrap;
+        margin-left: 20px;
+    }
+    .admin-profile-username,
+    .admin-profile-id {
+        padding: 0;
+    }
+    .admin-profile-image {
+        margin: 0;
+        width: 120px;
+        height: 120px;
+    }
+    .admin-avater-list-area {
+        top: 300px !important;
+        left: 2.5% !important;
+        width: 95% !important;
+    }
+    .admin-avater-list-area-arrow {
+        left: 105px !important;
+        top: -5px !important;
+        transform: translateY(-50%) rotate(90deg);
+    }
+    .admin-profile-table table tbody td {
+        text-align: left;
+    }
+    .admin-profile-update-form [class*="col-lg-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .slicknav_nav a,
+    .responsive-main-menu-wrapper li a {
+        font-size: 15px;
+    }
+    .live-support-icon {
+        /* bottom: 55px; */
+        bottom: 6px;
+    }
+    .live-support-content-area {
+        /* bottom: 110px; */
+        bottom: 60px;
+    }
+    .live-support-content-area.active {
+        /* bottom: 120px; */
+        bottom: 70px;
+    }
+    .live-support-icon .icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .live-support-icon:hover .text {
+        left: 40px;
+    }
+    .live-support-icon .text {
+        padding: 0 14px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .left-sidebar-tab-links,
+    .sport-card-level-one,
+    .game-preview-card {
+        display: none;
+    }
+    .upcoming-events {
+        margin-top: 0;
+    }
+    .live-events-in-mobile,
+    .live-in-play-header.in-mobile {
+        display: block;
+    }
+    .betslip-card-header[aria-expanded="false"] {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 110px;
+    }
+    .rs-other-info.termes-policy span {
+        white-space: pre-line;
+        word-wrap: break-word;
+        display: block;
+    }
+    .game-content-area {
+        margin-top: 96px;
+    }
+    .admin-template-area {
+        margin-top: 5px;
+    }
+    .tab-d-none {
+        display: block;
+    }
+    .game-area {
+        margin: 5px 0;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .left-sidebar, .right-sidebar, .game-area, .admin-content {
+        height: auto !important;
+    }
+
+    perfect-scrollbar {
+        max-height: initial !important;
+    }
+    /* Responsive Table Css Start */
+    /* table.rwd-table {
+        display: block;
+    }
+    table.rwd-table>*,
+    table.rwd-table tr,
+    table.rwd-table td,
+    table.rwd-table th {
+        display: block;
+        position: relative;
+        text-align: left;
+    }
+    table.rwd-table thead {
+        display: none;
+    }
+    table.rwd-table tbody tr {
+        height: auto;
+        border-bottom: 2px solid #ddd;
+    }
+    table.rwd-table tbody tr:last-child {
+        height: auto;
+        border-bottom: none;
+    }
+    table.rwd-table tbody tr td {
+        padding-left: 50%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    table.rwd-table tbody tr td:before {
+        position: absolute;
+        font-weight: 700;
+        width: 40%;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        text-transform: capitalize;
+    }
+    .rwd-table td:before {
+        content: attr(data-th) ": ";
+        font-weight: bold;
+    } */
+    /* Responsive Table Css Start */
+
+
+    /* NEW LAYOUT RESPONSIVE CSS */
+    .container-fluid.header-top-area {
+        height: 31px;
+    }
+    .header-area {
+        padding: 0;
+    }
+    .footer-top-left {
+        justify-content: center;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, .3);
+        display: block;
+    }
+    .footer-top-left ul:not(.dropdown-menu) {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer-top-left ul li {
+        border-right: 1px solid rgba(255, 255, 255, .3);
+        flex-basis: 0;
+        flex-grow: 1;
+    }
+    .footer-top-left ul li:last-child {
+        border-right: none;
+    }
+    .footer-top-left ul li a {
+        height: 30px;
+        width: auto;
+        border-right: none;
+    }
+    .footer-top-right ul li a,
+    .footer-top-right ul li button,
+    .language-list,
+    .language-list .btn,
+    .header-time,
+    .sign-up-area span.register,
+    .sign-up-area.after-login {
+        font-size: 11px;
+        height: 30px;
+        border: none;
+        width: 100%;
+    }
+    .footer-top-right ul li:first-child a, .footer-top-right ul li:first-child button {
+        border-left: none;
+    }
+    .container-fluid.header-bottom-area .col-sm-2, .container-fluid.header-bottom-area .col-sm-10 {
+        width: auto;
+    }
+    .container-fluid.header-bottom-area .row {
+        height: 40px;
+        margin-bottom: 0;
+    }
+    .responsive-main-menu button, .responsive-main-menu a.dropdown-toggle {
+        background: transparent;
+        padding: 4px 5px;
+        height: 40px;
+    }
+    .responsive-main-menu-wrapper, .responsive-main-menu .dropdown-menu {
+        top: 20px !important;
+    }
+    .sign-up-area .dropdown-menu.dropdown-menu-right {
+        top: 9px !important;
+        border-radius: 0;
+    }
+    .slicknav_nav a, .responsive-main-menu-wrapper li a {
+        font-size: 12px;
+    }
+    .game-other-info-box-area {
+        margin-top: 50px;
+    }
+    .game-other-info-box-area .col-lg-2, .game-other-info-box-area .col-lg-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .football-match-carousel-area, .game-other-info-registration-area {
+        margin-bottom: 5px;
+    }
+    .game-other-info-registration-area .form-inputs-wrapper .col-lg-6 {
+        width: 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .game-other-info-registration-area, .cricket-match-carousel-area, .football-match-carousel-area {
+        height: auto;
+    }
+    .single-banner-slider h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .game-content-area {
+        margin-top: 0;
+    }
+    .left-sidebar {
+        padding-right: 0;
+    }
+    .right-sidebar {
+        padding-left: 0;
+    }
+    .footer-top-right, .footer-top-right ul:not(.dropdown-menu) {
+        justify-content: stretch;
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-self: stretch;
+    }
+    .footer-top-right ul:not(.dropdown-menu) li {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        border-left: 1px solid rgba(255, 255, 255, .3);
+        max-width: 33.33333%;
+    }
+    .footer-top-right ul:not(.dropdown-menu) li:first-child {
+        border-left: none;
+    }
+    a.logged-in-user span.user-image img {
+        height: 24px;
+        width: 24px;
+    }
+    a.logged-in-user span.user-balance {
+        font-size: 11px;
+    }
+    a.logged-in-user span.user-balance .bottom-balance {
+        font-size: 8px;
+    }
+    .admin-body .responsive-main-menu-wrapper, .admin-body .responsive-main-menu .dropdown-menu {
+        top: 50px !important;
+    }
+    .admin-profile-table .col-lg-6:nth-child(2n+1) {
+        padding-right: 0;
+    }
+    .admin-profile-table .col-lg-6:nth-child(2n) {
+        padding-left: 0;
+    }
+    .admin-profile-update-form .form-group {
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+    .admin-profile-update-form .form-group label {
+        height: auto;
+    }
+    .admin-profile-update-form .col-lg-4 .form-group {
+        margin-bottom: 10px;
+    }
+    .admin-profile-update-form .col-lg-8.offset-4 {
+        margin-left: 0;
+    }
+    input.admin-profile-update-form-submit {
+        margin-top: 10px;
+    }
+
+    .admin-profile-condition {
+        margin-bottom: 25px;
+        margin-top: 0;
+    }
+    table.dataTable tbody th, table.dataTable tbody td {
+        text-align: center;
+    }
+
+    .footer-top-right ul li a {
+        justify-content: center;
+    }
+    .admin-profile-text {
+        text-align: center;
+        margin-left: 0;
+    }
+    .admin-profile-info-area {
+        padding-top: 0;
+    }
+    .admin-profile-info-area-wrapper {
+        padding: 10px 0;
+    }
+    .after-login-dropdown-menu .nav a {
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .no-cricket-match-live {
+        min-height: 150px;
+    }
+    .sport-card-accordion {
+        display: none;
+    }
+    .live-in-play-header.in-mobile {
+        background: #23507c;
+    }
+    .registration-fullpage-tab-box {
+        width: 100%;
+    }
+    app-game-content-area.mt-100 .game-content-area, .mt-100 {
+        margin-top: 103px;
+    }
+    app-banner-slider {
+        display: none;
+    }
+    .game-other-info-registration-area {
+        margin-bottom: 0;
+    }
+    .responsive-menu-wrapper .icon-user-menu {
+        display: flex;
+    }
+    section.admin-template-area .left-sidebar {
+        padding-right: 0px !important;
+    }
+
+    .m-d-none  {
+        display: none !important;
+    }
+    .sign-up-button-mobile {
+        display: flex !important;
+    }
+
+    .sign-in-off-canvas {
+        left: -240px;
+        top: 0;
+        transform: translate(0, 0) scale(1);
+    }
+    .sign-in-off-canvas-area-close {
+        left: -40px;
+        top: 0;
+    }
+    .active .sign-in-off-canvas {
+        left: 0;
+        top: 0;
+        transform: translate(0, 0) scale(1);
+    }
+    .active .sign-in-off-canvas-area-close {
+        left: 260px;
+    }
+    .sign-in-off-canvas-header span.icon-close {
+        display: none;
+    }
+
+    .left-sidebar-wrapper.user-left-sidebar-wrapper {
+        display: none;
+    }
+    .admin-template-area {
+        margin-top: 3px;
+    }
+
+    .right-sidebar.custom-scrollbar-2 {
+        position: relative;
+        top: 0;
+    }
+
+    .betslip-card-area.responsive {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: transparent;
+        transition: .5s;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+
+    .betslip-card-area-responsive-overlay {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .betslip-card-area.responsive .betslip-card.right-sidebar {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transition: .5s;
+        transform: translate(-50%, -50%) scale(.7);
+        height: auto !important;
+        width: 80%;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .betslip-card-area.responsive.active {
+        opacity: 1;
+        visibility: visible;
+    }
+    .active .betslip-card-area-responsive-overlay {
+        opacity: .5;
+        visibility: visible;
+    }
+    .betslip-card-area.responsive.active .betslip-card.right-sidebar {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+        visibility: visible;
+    }
+    .active .betslip-card-close {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .game-other-info-box-area .col-lg-3 .football-match-carousel-area {
+        margin-bottom: 0;
+    }
+
+    .match-details-breadcumb-area {
+        height: auto;
+    }
+    .match-details-breadcumb-area ul.breadcumb {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .match-details-breadcumb-area ul li a {
+        height: 20px;
+    }
+    .match-details-breadcumb-area ul.statistics-link {
+        display: none;
+    }
+    .game-options-area {
+        height: auto;
+        flex-direction: column;
+    }
+    .game-options-left-side, .game-options-right-side {
+        width: 100%;
+    }
+    .game-options-left-side {
+        border-bottom: 5px solid #081f31;
+    }
+    .game-option-list {
+        margin-right: 0;
+    }
+    .game-search-area {
+        margin-left: 0;
+    }
+    .match-weather-forecast ul li, .match-count-info {
+        text-align: center;
+    }
+    .match-weather-forecast .icon {
+        margin-right: 0;
+        display: block;
+    }
+    .cricket-match-summary-details .match-details-info span {
+        justify-content: center;
+    }
+    .game-other-info-box-area .col-lg-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .cricket-carousel-logged-in {
+        padding-right: 0;
+        margin-bottom: 5px;
+    }
+    .football-carousel-logged-in {
+        padding-left: 0;
+    }
+    .cricket-carousel-logged-in .cricket-match-carousel-area, .football-carousel-logged-in .football-match-carousel-area {
+        height: 230px;
+    }
+    .cricket-carousel-logged-in, .football-carousel-logged-in {
+        width: 100%;
+    }
+    .upcomming-matches-area {
+        margin-top: 0;
+    }
+    .registration-fullpage-tab-box .nav-tabs .nav-item a {
+        font-size: 12px;
+    }
+    .has-notice-bar .game-other-info-box-area {
+        margin-top: 138px;
+    }
+    .has-notice-bar .admin-template-area {
+        margin-top: 134px;
+        height: auto !important;
+    }
+    .has-notice-bar  .responsive-main-menu-wrapper, .has-notice-bar  .responsive-main-menu .dropdown-menu {
+        top: 65px !important;
+    }
+    .has-notice-bar  app-game-content-area.mt-100 .game-content-area, .mt-100 {
+        margin-top: 25px;
+    }
+    .sign-up-area.register-link-area {
+        width: 100%;
+    }
+    .no-cricket-match-live, .no-football-match-live {
+        height: 146px;
+    }
+    .single-match-result-header {
+        font-size: 12px;
+        justify-content: space-between;
+    }
+    .single-match-result-header .right-side {
+        margin-top: 0;
+        width: 38%;
+        justify-content: flex-end;
+        text-align: right;
+    }
+
+    a.logged-in-user.top-up-area span.user-balance .bottom-balance {
+        height: 15px;
+    }
+    a.logged-in-user.top-up-area span.user-balance span.top-up-text {
+        height: 15px;
+    }
+    a.logged-in-user.top-up-area span.user-balance,
+    a.logged-in-user.top-up-area span.user-balance span.top-up-text.h-40 {
+        height: 30px;
+    }
+    .cricket-carousel-logged-in .cricket-match-carousel-area.no-live-match,
+    .football-carousel-logged-in .football-match-carousel-area.no-live-match {
+        height: 150px;
+    }
+    .single-match-result-header .left-side {
+        width: 100%;
+    }
+    .single-match-result-header .right-side * {
+        font-size: 11px;
+    }
+    a.logged-in-user {
+        min-width: auto;
+    }
+    .match-details-game-tab-area [class*='col-lg-'] {
+        flex-basis: auto;
+    }
+    .admin-content .tab-content .tab-pane .admin-content-scroll-wrapper {
+        /*height: auto;*/
+    }
+    .notice-lists {
+        /*width: auto;*/
+    }
+    .sign-in-fullpage-area .registration-fullpage-tab-box {
+        width: 90%;
+    }
+    .mobile-extra-header-menu-area {
+        display: block;
+    }
+    .upcomming-matches-list {
+        max-height: inherit;
+    }
+    .admin-profile-table table tbody td,
+    .admin-profile-table table.table thead th {
+        font-size: 10px;
+        padding: 4px;
+        text-align: center;
+    }
+    .initial-popup-modal {
+        width: 90%;
+    }
+    .initial-popup-left, .initial-popup-right {
+        display: none;
+    }
+    .initial-popup-content {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .initial-popup-content {
+        padding: 30px;
+    }
+
+
+}
+
+
+/* Wide Mobile Layout(Nexus 7): 600px. */
+
+@media only screen and (max-width: 610px) {}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (max-width: 500px) {}
+
+
+/* Mobile Layout(Samsung Galaxy S5): 360px. */
+
+@media only screen and (max-width: 370px) {}
+
+
+/* Mobile Layout(iPhone 4): 320px. */
+
+@media only screen and (max-width: 330px) {
+    .betslip-item-list {
+        max-height: 200px;
+    }
+    .live-support-content-area {
+        width: 280px;
+    }
+    .live-support-content-header {
+        height: 60px;
+        font-size: 14px;
+    }
+    .game-other-info-registration-area .form-inputs-wrapper .col-lg-6 {
+        width: 100%;
+    }
+	.game-other-info-registration-area.registration-fullpage-area{
+		padding: 0%;
+	}
+
+	.game-other-info-registration-area .form-inputs-wrapper .col-lg-6:nth-child(2n+1) {
+        padding-right: 0;
+    }
+    .game-other-info-registration-area .form-inputs-wrapper .col-lg-6:nth-child(2n) {
+        padding-left: 0;
+    }
+}

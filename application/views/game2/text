@@ -1,0 +1,156 @@
+
+1. club login from admin
+2. club login coin data configration
+3. add balance option in user panel grid
+4. ludu & head tile game add
+5. safe60 hide option add
+
+
+published_bet_result()
+
+user_balance_statement_update()
+
+    $single_bet_data = $this->db->query("SELECT id,total_coin,club_id,match_bit_id FROM matchbit_coin WHERE user_id='{$u_id}' AND bet_status='WIN' AND user_coin_update ='No' AND bet_type = 'SINGLE_BET' ORDER BY id ASC")->result();
+    // this is for get single bet winning balance user
+    if (!empty($single_bet_data)) {
+      foreach ($single_bet_data as $key => $value) {
+        $this->db->query("UPDATE matchbit_coin SET user_coin_update = 'Yes' WHERE id = '{$value->id}'");
+        $user_balance = get_user_current_balance($u_id);
+        $cur_balance = @($user_balance + $value->total_coin);
+        $data_arry = array(
+          'user_id' => $u_id,
+          'club_id' => $value->club_id,
+          'coin' => $value->total_coin,
+          'current_balance' => $cur_balance,
+          'coin_type' => 'BETWIN',
+          'method' => 'GET',
+          'bet_option_id' => $value->match_bit_id,
+          'single_bet_id' => $value->id,
+          'created_at' => date("Y-m-d H:i:s")
+        );
+        $this->db->insert('my_coin', $data_arry);
+      }
+    }
+
+===================================
+
+for balance dynamic option
+
+header_auth.php file
+line no 30: remove onclick option
+line no 91: remove onclick option
+line no 50 for replacing "please wait"
+
+index_header.php line no 100
+
+
+$this->session->userdata['cus_data']->id
+
+Mon37373211mon
+
+
+dev_mh@gmail.com
+Betsafe33109010
+
+================================================================
+
+'DEPOSIT','TRANSFER_GET','WITHDRAW','BONUS','BETWIN','BETLOSS','BETCANCEL','TRANSFER_POST','RUNNING_BET','DEPOSIT_CANCEL','WITHDRAW_CANCEL','ADD_COIN','RETURN_COIN','BET_ROLLBACK','DEPO'
+
+
+Mawrum, Rangamati - A Harvest Moon Voyage
+
+
+
+===========================================
+Ratio update in the settings:
+
+db:
+ALTER TABLE `settings` ADD `coin_game_ratio` INT NULL DEFAULT NULL AFTER `user_balance_plus_minus`, ADD `coin_game_rate` DECIMAL(10,2) NULL DEFAULT NULL AFTER `coin_game_ratio`; 
+------------------
+
+
+=====================================================
+<div id="coin"><div class="side-a "><a href=""><img style="width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%;" src="images/tail.png"></a><span class="win"></span><span class="resultwin">You are Fail</span></div><div class="side-a hideMe"><img style="width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%; padding:2px;" src="images/coin.gif"></div></div>
+
+
+{"wstatues":"<div class='side-a '><a href=''><img style='width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%;' src='images\/tail.png'><\/a><span class='win'><\/span><span class='resultwin'>You are Fail<\/span><\/div><div class='side-a hideMe'><img style='width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%; padding:2px;' src='images\/coin.gif'><\/div>","b":"<div class='loading hideMe'><span class=''>Loadding....<\/span><\/div>\n                <div class='result side-a '><span class=''>You are win<\/span><\/div>","c":"<div class='loading hideMe'><span class=''><\/span><\/div>\n                <div class='result side-a '><span class=''>Refresh and continue<\/span><\/div>","posiblewin":"<span>Possible Winning<\/span><span class='bg' id='coin_pwin'>40.00<\/span>","error":""}
+
+
+=== Result ====
+array (
+  'wstatues' => '<div class=\'side-a \'><a href=\'\'><img style=\'width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%;\' src=\'images/tail.png\'></a><span class=\'win\'></span><span class=\'resultwin\'>You are Fail</span></div><div class=\'side-a hideMe\'><img style=\'width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%; padding:2px;\' src=\'images/coin.gif\'></div>',
+  'b' => '<div class=\'loading hideMe\'><span class=\'\'>Loadding....</span></div>
+                <div class=\'result side-a \'><span class=\'\'>You are win</span></div>',
+  'c' => '<div class=\'loading hideMe\'><span class=\'\'></span></div>
+                <div class=\'result side-a \'><span class=\'\'>Refresh and continue</span></div>',
+  'posiblewin' => '<span>Possible Winning</span><span class=\'bg\' id=\'coin_pwin\'>40.00</span>',
+  'error' => '',
+)
+
+=== error ===
+{"error":"<div role='alert' class='alert alert-danger'>\n        <strong>Please login frist !!<\/strong>\n        <\/div>"}
+
+array (
+  'error' => '<div role=\'alert\' class=\'alert alert-danger\'>
+        <strong>Please login frist !!</strong>
+        </div>',
+)
+=============
+
+
+
+win =================
+
+<div id="coin"><div class="side-a "><a href=""><img style="width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%;" src="images/head.png"></a><span class="win"></span><span class="resultwin">You are win</span></div><div class="side-a hideMe"><img style="width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%; padding:2px;" src="images/coin.gif"></div></div>
+
+
+fail ================
+
+<div id="coin"><div class="side-a "><a href=""><img style="width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%;" src="images/tail.png"></a><span class="win"></span><span class="resultwin">You are Fail</span></div><div class="side-a hideMe"><img style="width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%; padding:2px;" src="images/coin.gif"></div></div>
+
+
+=========================================================
+FOR LIVE UPDATE
+=========================================================
+ALTER TABLE `my_coin` CHANGE `coin_type` `coin_type` ENUM('DEPOSIT','TRANSFER_GET','WITHDRAW','BONUS','BETWIN','BETLOSS','BETCANCEL','TRANSFER_POST','RUNNING_BET','DEPOSIT_CANCEL','WITHDRAW_CANCEL','ADD_COIN','RETURN_COIN','BET_ROLLBACK','DEPO','PLAY_GAME', 'GAME_WIN') CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;
+
+
+
+
+===============================================================
+LUDU jSON
+===============================================================
+== win status
+{"wstatues":"<div class='side-a '><a href=''>\n            <img style='width:100%;height:100%;border: 22px solid #f00;border-radius: 50%;' src='images\/dice-1.png'><\/a><span class='win'>You are Win<\/span><span class='amount'>20 tk<\/span><\/div>\n            <span class='amount'>20 tk<\/span><\/div><div class='side-a hideMe'><img style='width: 100%;height: 100%;border: 22px solid #f00;border-radius: 50%; padding:2px;' src='images\/qqq.gif'><\/div>","error":""}
+
+-------------------
+
+
+
+
+================================================
+DICE JSON
+----------
+failed:-
+----------
+{"wstatues":"<div class='side-a '>\n            \n            <span class='win'><\/span><span class='resultwin' style='color:white;'>You are Fail. Balance - 110 Red-8 | White- 9<\/span><\/div><div class='side-a hideMe'><img style='width: 100%;height: 100%;border: 5px solid #f00;border-radius: 50%; padding:2px;' src='images\/www.gif'><\/div>","b":"<div class='loading hideMe'><span class=''>Loadding....<\/span><\/div>\n                <div class='result side-a '><span class=''>You are win ludu1<\/span><\/div>","posiblewin":"<span>Possible Winning<\/span><span class='bg' id='coin_pwin'>30.00<\/span>","error":""}
+
+html code loss:-
+
+<div id="coin"><div class="side-a ">
+            
+            <span class="win"></span><span class="resultwin" style="color:white;">You are Fail. Balance - 110 Red-8 | White- 9</span></div><div class="side-a hideMe"><img style="width: 100%;height: 100%;border: 5px solid #f00;border-radius: 50%; padding:2px;" src="images/www.gif"></div></div>
+
+
+html code win:-
+
+<div id="coin"><div class="side-a ">
+            
+            <span class="win"></span><span class="resultwin" style="color:white;">Congrasulation! You are win. Balance - 100 Red-8 | White- 4</span></div><div class="side-a hideMe"><img style="width: 100%;height: 100%;border: 5px solid #f00;border-radius: 50%; padding:2px;" src="images/www.gif"></div></div>
+
+
+===========================
+Game Slide dynamic option:
+after_sign_in_slider.php
+without_sign_in_slider.php
+===========================
